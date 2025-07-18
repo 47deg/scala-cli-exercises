@@ -1,5 +1,5 @@
 // Main
-//> using scala "3" "3.5.2"
+//> using scala "3" "3.7.1"
 //> using platforms "scala-js"
 //> using toolkit "typelevel:0.1.28"
 
@@ -22,4 +22,3 @@
 //> using test.dependency "org.scalatest::scalatest::3.2.19"
 //> using test.dependency "org.typelevel::munit-cats-effect:2.0.0"
 //> using test.dependency "org.typelevel::scalacheck-effect-munit:2.0.0-M2"
-

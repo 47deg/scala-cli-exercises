@@ -13,8 +13,8 @@ docker for database
 
 There are two commands needed to explore these exercises
 
-- `scala-cli repl <file.`scala>` This will allow you to play with values and functions
-- `scala-cli test <file.test.`scala>` This will allow you to test files
+- `scala-cli repl <file.scala>` This will allow you to play with values and functions
+- `scala-cli test <file.test.scala>` This will allow you to test files
 
 ```bash
 ❯ scala-cli repl 1.semigroup.scala
@@ -22,7 +22,7 @@ Compiling project (Scala 3.4.1, JVM (17))
 Compiled project (Scala 3.4.1, JVM (17))
 Welcome to Scala 3.4.1 (17.0.5, Java Java HotSpot(TM) 64-Bit Server VM).
 Type in expressions for evaluation. Or try :help.
-                                                          
+
 scala> combineFunctions2(6)
 val res0: Int = 67
 ```
@@ -67,7 +67,7 @@ import later in the HTML file
 
 run `docker-compose up`
 
-## pre-requisites 
+## pre-requisites
 
 Cats effects
 
