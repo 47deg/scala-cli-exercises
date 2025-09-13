@@ -1,12 +1,51 @@
+### temp files ###
 *.class
 *.log
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 
+### macOS ###
+
+.DS_Store
+
+### SBT ###
+
+dist/*
+target/
+lib_managed/
+src_managed/
+project/boot/
+project/plugins/project/
+.history
+.cache
+.lib/
 .bsp/
+
+### Scala ###
+
+*.metals
+.bloop/
 .metals/
+metals.sbt
 .scala-build/
+
+### Intellij ###
+
+.idea
+out/
+
+### VisualStudioCode ###
+
 .vscode/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+### Others ###
 
 node_modules/
+package.json
+package-lock.json
