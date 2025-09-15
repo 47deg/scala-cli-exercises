@@ -1,3 +1,4 @@
+//> using files ../../../../src
 package com.xebia.stdlib
 
 import org.scalatest.matchers.should.Matchers._
