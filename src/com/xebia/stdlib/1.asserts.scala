@@ -1,3 +1,4 @@
+//> using toolkit com.xebia.SE:0.1.1-SNAPSHOT
 package com.xebia.stdlib
 
 import org.scalatest.matchers.should.Matchers._

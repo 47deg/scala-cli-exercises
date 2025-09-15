@@ -1,3 +1,4 @@
+//> using files ../../../../src
 package com.xebia.cats
 class Semigroup extends munit.FunSuite {
   test("combine Ints") {
